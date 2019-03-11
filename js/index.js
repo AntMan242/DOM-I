@@ -45,8 +45,9 @@ const siteContent = {
 
 // Navigation & Header
 
-const navigation = document.getElementsByTagName('a');
+const links = document.getElementsByTagName('a');
 const logo = document.getElementsByClassName('logo');
+
 // Call to Action
 
 const cta = document.getElementsByClassName('cta');
@@ -68,3 +69,11 @@ const contactSection = document.getElementsByClassName('contact');
 const logo1 = document.getElementById('logo-img');
 const ctaImage = document.getElementById('cta-img');
 const midImage = document.getElementById('middle-img');
+
+// Updated HTML
+
+const header1 = document.querySelector('h1');
+header1.textContent = 'DOM IS AWESOME'
+
+const btn = document.querySelector('button');
+btn.textContent = 'Get Started';
